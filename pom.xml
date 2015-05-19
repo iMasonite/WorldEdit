@@ -37,35 +37,6 @@
 		<url>http://build.sk89q.com</url>
 	</ciManagement>
 
-	<scm>
-		<connection>scm:git:git://github.com/sk89q/worldedit.git</connection>
-		<developerConnection>scm:git:git@github.com:sk89q/worldedit.git</developerConnection>
-		<url>https://github.com/sk89q/worldedit</url>
-		<tag>5.6</tag>
-	</scm>
-
-	<mailingLists>
-		<mailingList>
-			<name>Developer Discussion</name>
-			<archive>https://groups.google.com/d/forum/sk-dev-discuss</archive>
-		</mailingList>
-	</mailingLists>
-
-	<distributionManagement>
-		<site>
-			<id>sk89q-docs-upload</id>
-			<url>ftp://sk89q-maven-deploy/worldedit/</url>
-		</site>
-		<repository>
-			<id>maven.sk89q.com</id>
-			<url>http://maven.sk89q.com/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>maven.sk89q.com-snapshot</id>
-			<url>http://maven.sk89q.com/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<properties> <!-- Fix encoding warnings -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -327,7 +298,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
 
 		</plugins>
 	</build>
