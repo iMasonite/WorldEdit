@@ -1,7 +1,6 @@
 
 package com.sk89q.jnbt;
 
-
 /*
  * JNBT License Copyright (c) 2010 Graham Edgecombe All rights reserved. Redistribution and use in
  * source and binary forms, with or without modification, are permitted provided that the following
