@@ -87,7 +87,8 @@
 			<optional>true</optional> <!-- Don't export -->
 		</dependency>
 
-		<dependency> <!-- Bukkit implementation -->
+		<!-- Bukkit implementation -->
+		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>1.4.7-R1.0</version>
@@ -105,8 +106,27 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Forge implementation -->
 
-		<dependency> <!-- Unit tests -->
+		<dependency>
+			<groupId>net.minecraftforge</groupId>
+			<artifactId>mcforge</artifactId>
+			<version>6.6.2.534</version>
+			<scope>system</scope>
+			<systemPath>X:\MINECRAFT\Dependency\1.4.7-R0.1\CompForgeMinecraft.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>cpw.mods.fml</groupId>
+			<artifactId>MCPC</artifactId>
+			<version>6.6.2.534</version>
+			<scope>system</scope>
+			<systemPath>X:\KenetiServerProject\DEBUGSERVER\TekkitLite\mcpc-plus.jar</systemPath>
+		</dependency>
+
+
+
+		<!-- Unit tests -->
+		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
 			<version>1.9.0-rc1</version>
